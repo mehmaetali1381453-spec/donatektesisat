@@ -4,738 +4,1086 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>DOANTEK TESİSAT | Su Kaçağı Tespiti & Tesisat Hizmetleri</title>
+<title>İstanbul Tesisatçı | Su Kaçağı Tespiti | DOANTEK TESİSAT</title>
 
-<meta name="description" content="DOANTEK TESİSAT - İstanbul Esenler ve çevresinde su kaçağı tespiti, tesisat onarımı, gider açma, kombi ve kalorifer tesisatı hizmetleri. Hemen arayın.">
-<meta name="keywords" content="su kaçağı tespiti, Esenler tesisatçı, İstanbul tesisatçı, kaçak tespiti, gider açma, kombi tesisatı">
-<meta name="author" content="DOANTEK TESİSAT">
+<meta name="description" content="İstanbul tesisatçı ve su kaçağı tespiti hizmetleri. DOANTEK TESİSAT; su kaçağı, tesisat onarımı, gider açma, kombi ve kalorifer tesisatı hizmetleri sunar.">
 
 <style>
+
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+margin:0;
+padding:0;
+box-sizing:border-box;
 }
 
 html{
-    scroll-behavior:smooth;
+scroll-behavior:smooth;
 }
 
 body{
-    font-family:Arial,Helvetica,sans-serif;
-    background:#f5f7fa;
-    color:#172033;
-    line-height:1.6;
+font-family:Arial,Helvetica,sans-serif;
+background:#f5f7fa;
+color:#172033;
+line-height:1.6;
 }
 
 a{
-    text-decoration:none;
-    color:inherit;
+text-decoration:none;
+color:inherit;
 }
 
 .container{
-    width:92%;
-    max-width:1150px;
-    margin:auto;
+width:92%;
+max-width:1180px;
+margin:auto;
 }
 
 /* HEADER */
+
 header{
-    position:sticky;
-    top:0;
-    z-index:1000;
-    background:rgba(8,25,55,.97);
-    box-shadow:0 3px 20px rgba(0,0,0,.15);
+position:sticky;
+top:0;
+z-index:999;
+background:#071d3d;
+box-shadow:0 3px 20px rgba(0,0,0,.15);
 }
 
 .nav{
-    height:76px;
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
+height:76px;
+display:flex;
+align-items:center;
+justify-content:space-between;
 }
 
 .logo{
-    font-size:25px;
-    font-weight:800;
-    color:white;
-    letter-spacing:.5px;
+font-size:25px;
+font-weight:900;
+color:white;
 }
 
 .logo span{
-    color:#ff8a00;
+color:#ff8a00;
 }
 
 .menu{
-    display:flex;
-    gap:30px;
-    color:white;
-    font-weight:600;
+display:flex;
+gap:30px;
+color:white;
+font-weight:bold;
 }
 
 .menu a:hover{
-    color:#ff9b2f;
+color:#ff981f;
 }
 
-.nav-btn{
-    background:#ff8a00;
-    color:white;
-    padding:11px 18px;
-    border-radius:8px;
-    font-weight:bold;
+.nav-phone{
+background:#ff8a00;
+padding:11px 18px;
+border-radius:8px;
+font-weight:bold;
+color:white;
 }
 
 /* HERO */
-.hero{
-    min-height:620px;
-    display:flex;
-    align-items:center;
-    position:relative;
-    overflow:hidden;
-    background:
-      linear-gradient(115deg,rgba(4,22,53,.97),rgba(9,73,143,.88)),
-      radial-gradient(circle at 80% 30%,#1597e5,transparent 35%);
-    color:white;
-}
 
-.hero:after{
-    content:"";
-    position:absolute;
-    width:500px;
-    height:500px;
-    border:70px solid rgba(255,255,255,.05);
-    border-radius:50%;
-    right:-180px;
-    top:-150px;
+.hero{
+min-height:650px;
+display:flex;
+align-items:center;
+position:relative;
+overflow:hidden;
+
+background:
+linear-gradient(90deg,
+rgba(3,19,42,.96) 0%,
+rgba(3,35,75,.86) 48%,
+rgba(3,35,75,.40) 100%),
+
+url("https://images.unsplash.com/photo-1723514582643-233c529aa274?auto=format&fit=crop&w=1800&q=85");
+
+background-size:cover;
+background-position:center;
 }
 
 .hero-content{
-    max-width:760px;
-    position:relative;
-    z-index:2;
+max-width:760px;
+color:white;
+position:relative;
+z-index:2;
+padding:70px 0;
 }
 
-.badge{
-    display:inline-block;
-    background:rgba(255,255,255,.12);
-    border:1px solid rgba(255,255,255,.2);
-    padding:8px 15px;
-    border-radius:30px;
-    margin-bottom:22px;
-    font-weight:bold;
-    color:#ffb25c;
+.hero-label{
+display:inline-block;
+padding:8px 15px;
+border-radius:30px;
+background:rgba(255,255,255,.12);
+border:1px solid rgba(255,255,255,.2);
+color:#ffae55;
+font-weight:bold;
+margin-bottom:22px;
 }
 
 .hero h1{
-    font-size:55px;
-    line-height:1.08;
-    margin-bottom:22px;
+font-size:58px;
+line-height:1.08;
+margin-bottom:22px;
 }
 
 .hero h1 span{
-    color:#ff921f;
+color:#ff8a00;
 }
 
 .hero p{
-    font-size:20px;
-    color:#dce9f8;
-    max-width:700px;
-    margin-bottom:32px;
+font-size:20px;
+color:#dce8f5;
+max-width:700px;
+margin-bottom:32px;
 }
 
 .buttons{
-    display:flex;
-    gap:14px;
-    flex-wrap:wrap;
+display:flex;
+gap:13px;
+flex-wrap:wrap;
 }
 
 .btn{
-    padding:15px 25px;
-    border-radius:9px;
-    font-weight:bold;
-    display:inline-block;
-    transition:.2s;
+display:inline-block;
+padding:15px 24px;
+border-radius:9px;
+font-weight:bold;
+transition:.2s;
 }
 
 .btn:hover{
-    transform:translateY(-2px);
+transform:translateY(-3px);
 }
 
-.btn-orange{
-    background:#ff8a00;
-    color:white;
+.orange{
+background:#ff8a00;
+color:white;
 }
 
-.btn-green{
-    background:#20bd67;
-    color:white;
+.green{
+background:#19bd66;
+color:white;
 }
 
 /* TRUST */
+
 .trust{
-    background:white;
-    box-shadow:0 8px 30px rgba(0,0,0,.08);
-    margin-top:-45px;
-    position:relative;
-    z-index:5;
-    border-radius:14px;
+margin-top:-45px;
+position:relative;
+z-index:5;
+background:white;
+border-radius:14px;
+box-shadow:0 10px 35px rgba(0,0,0,.1);
 }
 
 .trust-grid{
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    text-align:center;
-    padding:28px;
+display:grid;
+grid-template-columns:repeat(3,1fr);
+padding:28px;
+text-align:center;
 }
 
 .trust-item{
-    padding:8px 20px;
-    border-right:1px solid #e5e8ed;
+padding:10px 20px;
+border-right:1px solid #e6eaf0;
 }
 
 .trust-item:last-child{
-    border:none;
+border:none;
+}
+
+.trust-icon{
+font-size:28px;
+margin-bottom:5px;
 }
 
 .trust-item strong{
-    display:block;
-    font-size:18px;
-    margin-bottom:4px;
-    color:#092b5c;
+display:block;
+color:#082b59;
+font-size:18px;
 }
 
-/* SECTION */
+/* SECTIONS */
+
 section{
-    padding:85px 0;
+padding:90px 0;
 }
 
-.section-title{
-    text-align:center;
-    max-width:700px;
-    margin:0 auto 45px;
+.title{
+text-align:center;
+max-width:720px;
+margin:0 auto 48px;
 }
 
-.section-title small{
-    color:#ff8a00;
-    font-weight:bold;
-    text-transform:uppercase;
-    letter-spacing:1px;
+.title small{
+color:#ff8a00;
+font-weight:bold;
+letter-spacing:1px;
 }
 
-.section-title h2{
-    font-size:38px;
-    margin:10px 0;
-    color:#092b5c;
+.title h2{
+font-size:40px;
+color:#082b59;
+margin:8px 0 12px;
 }
 
-.section-title p{
-    color:#697586;
+.title p{
+color:#6c7888;
 }
 
 /* SERVICES */
+
 .services{
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:22px;
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:22px;
 }
 
 .service{
-    background:white;
-    border-radius:14px;
-    padding:30px;
-    box-shadow:0 8px 25px rgba(15,40,70,.07);
-    border:1px solid #edf0f4;
-    transition:.25s;
+background:white;
+border-radius:15px;
+overflow:hidden;
+box-shadow:0 8px 28px rgba(15,40,70,.07);
+border:1px solid #edf0f4;
+transition:.25s;
 }
 
 .service:hover{
-    transform:translateY(-6px);
-    box-shadow:0 15px 35px rgba(15,40,70,.12);
+transform:translateY(-7px);
+box-shadow:0 16px 35px rgba(15,40,70,.13);
 }
 
-.icon{
-    width:58px;
-    height:58px;
-    border-radius:13px;
-    background:#eaf4ff;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    font-size:27px;
-    margin-bottom:18px;
+.service-img{
+height:180px;
+background-size:cover;
+background-position:center;
+}
+
+.service-body{
+padding:25px;
+}
+
+.service-icon{
+font-size:30px;
+margin-bottom:8px;
 }
 
 .service h3{
-    color:#092b5c;
-    margin-bottom:10px;
-    font-size:21px;
+color:#082b59;
+font-size:21px;
+margin-bottom:9px;
 }
 
 .service p{
-    color:#687587;
+color:#6b7787;
 }
 
-/* ABOUT */
-.about{
-    background:#092b5c;
-    color:white;
+/* FEATURE */
+
+.feature{
+background:#082b59;
+color:white;
 }
 
-.about-grid{
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    gap:60px;
-    align-items:center;
+.feature-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:55px;
+align-items:center;
 }
 
-.about h2{
-    font-size:40px;
-    margin:12px 0 20px;
+.feature-img{
+min-height:450px;
+border-radius:20px;
+background:
+linear-gradient(rgba(0,32,70,.25),rgba(0,32,70,.25)),
+url("https://images.unsplash.com/photo-1565797019502-383a19eac4b5?auto=format&fit=crop&w=1200&q=85");
+background-size:cover;
+background-position:center;
 }
 
-.about p{
-    color:#d4e0ed;
-    margin-bottom:25px;
+.feature small{
+color:#ff9a29;
+font-weight:bold;
 }
 
-.checks{
-    display:grid;
-    gap:14px;
+.feature h2{
+font-size:42px;
+line-height:1.15;
+margin:12px 0 20px;
+}
+
+.feature p{
+color:#d3dfec;
+margin-bottom:25px;
+}
+
+.check-list{
+display:grid;
+gap:13px;
 }
 
 .check{
-    background:rgba(255,255,255,.08);
-    padding:13px 17px;
-    border-radius:8px;
+padding:13px 16px;
+background:rgba(255,255,255,.08);
+border-radius:8px;
 }
 
 .check span{
-    color:#ff9a28;
-    font-weight:bold;
-    margin-right:8px;
+color:#ff9a29;
+font-weight:bold;
+margin-right:8px;
+}
+
+/* WORKS */
+
+.works{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px;
+}
+
+.work{
+height:260px;
+border-radius:15px;
+overflow:hidden;
+position:relative;
+background:#ddd;
+}
+
+.work img{
+width:100%;
+height:100%;
+object-fit:cover;
+transition:.4s;
+}
+
+.work:hover img{
+transform:scale(1.06);
+}
+
+.work-text{
+position:absolute;
+bottom:0;
+left:0;
+right:0;
+padding:20px;
+color:white;
+font-weight:bold;
+background:linear-gradient(transparent,rgba(0,0,0,.8));
 }
 
 /* CTA */
+
 .cta{
-    background:linear-gradient(120deg,#ff8300,#ffae45);
-    color:white;
-    text-align:center;
+background:
+linear-gradient(100deg,#ff7d00,#ffad42);
+color:white;
+text-align:center;
 }
 
 .cta h2{
-    font-size:38px;
-    margin-bottom:12px;
+font-size:40px;
+margin-bottom:10px;
 }
 
 .cta p{
-    margin-bottom:25px;
+margin-bottom:25px;
 }
 
 .cta .btn{
-    background:white;
-    color:#092b5c;
+background:white;
+color:#082b59;
 }
 
 /* CONTACT */
+
+.contact{
+background:#f1f4f8;
+}
+
 .contact-grid{
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    gap:25px;
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:25px;
 }
 
 .contact-card{
-    background:white;
-    border-radius:14px;
-    padding:30px;
-    box-shadow:0 8px 25px rgba(15,40,70,.07);
+background:white;
+padding:32px;
+border-radius:15px;
+box-shadow:0 8px 25px rgba(0,0,0,.06);
 }
 
 .contact-card h3{
-    color:#092b5c;
-    margin-bottom:20px;
+color:#082b59;
+font-size:25px;
+margin-bottom:20px;
 }
 
 .contact-line{
-    padding:14px 0;
-    border-bottom:1px solid #edf0f4;
+padding:15px 0;
+border-bottom:1px solid #e8ebef;
 }
 
 .contact-line:last-child{
-    border:none;
+border:none;
 }
 
 .contact-line strong{
-    display:block;
-    color:#092b5c;
+display:block;
+color:#082b59;
+margin-bottom:3px;
 }
 
 /* FOOTER */
+
 footer{
-    background:#061a38;
-    color:#b9c8da;
-    padding:35px 0;
-    text-align:center;
+background:#061a38;
+color:#b8c6d7;
+text-align:center;
+padding:38px 0 95px;
 }
 
 footer strong{
-    color:white;
+color:white;
 }
 
-.bottom-buttons{
-    position:fixed;
-    bottom:18px;
-    left:15px;
-    right:15px;
-    display:none;
-    gap:10px;
-    z-index:9999;
+/* MOBILE BUTTONS */
+
+.mobile-buttons{
+position:fixed;
+bottom:15px;
+left:12px;
+right:12px;
+display:none;
+gap:10px;
+z-index:9999;
 }
 
-.bottom-buttons a{
-    flex:1;
-    text-align:center;
-    color:white;
-    padding:13px;
-    border-radius:8px;
-    font-weight:bold;
-}
-
-.phone{
-    background:#ff8a00;
-}
-
-.whatsapp{
-    background:#20bd67;
+.mobile-buttons a{
+flex:1;
+text-align:center;
+color:white;
+padding:13px;
+border-radius:8px;
+font-weight:bold;
 }
 
 /* MOBILE */
-@media(max-width:800px){
 
-    .menu{
-        display:none;
-    }
+@media(max-width:850px){
 
-    .nav-btn{
-        padding:9px 12px;
-        font-size:13px;
-    }
-
-    .hero{
-        min-height:570px;
-    }
-
-    .hero h1{
-        font-size:39px;
-    }
-
-    .hero p{
-        font-size:17px;
-    }
-
-    .trust-grid{
-        grid-template-columns:1fr;
-        gap:15px;
-    }
-
-    .trust-item{
-        border-right:none;
-        border-bottom:1px solid #e5e8ed;
-        padding-bottom:15px;
-    }
-
-    .trust-item:last-child{
-        border:none;
-    }
-
-    .services{
-        grid-template-columns:1fr;
-    }
-
-    .about-grid{
-        grid-template-columns:1fr;
-        gap:30px;
-    }
-
-    .about h2{
-        font-size:32px;
-    }
-
-    .contact-grid{
-        grid-template-columns:1fr;
-    }
-
-    section{
-        padding:65px 0;
-    }
-
-    .section-title h2{
-        font-size:31px;
-    }
-
-    .bottom-buttons{
-        display:flex;
-    }
-
-    footer{
-        padding-bottom:90px;
-    }
+.menu{
+display:none;
 }
+
+.nav-phone{
+padding:9px 12px;
+font-size:13px;
+}
+
+.hero{
+min-height:620px;
+background-position:center;
+}
+
+.hero h1{
+font-size:40px;
+}
+
+.hero p{
+font-size:17px;
+}
+
+.trust-grid{
+grid-template-columns:1fr;
+gap:12px;
+}
+
+.trust-item{
+border-right:none;
+border-bottom:1px solid #e6eaf0;
+padding-bottom:15px;
+}
+
+.trust-item:last-child{
+border:none;
+}
+
+.services{
+grid-template-columns:1fr;
+}
+
+.feature-grid{
+grid-template-columns:1fr;
+}
+
+.feature-img{
+min-height:330px;
+}
+
+.feature h2{
+font-size:34px;
+}
+
+.works{
+grid-template-columns:1fr;
+}
+
+.work{
+height:240px;
+}
+
+.contact-grid{
+grid-template-columns:1fr;
+}
+
+.title h2{
+font-size:32px;
+}
+
+.mobile-buttons{
+display:flex;
+}
+
+}
+
+/* SMALL */
+
+@media(max-width:500px){
+
+.logo{
+font-size:20px;
+}
+
+.hero h1{
+font-size:34px;
+}
+
+.hero{
+min-height:600px;
+}
+
+section{
+padding:65px 0;
+}
+
+}
+
 </style>
 </head>
 
 <body>
 
 <header>
+
 <div class="container nav">
 
-<a href="#" class="logo">DOANTEK <span>TESİSAT</span></a>
+<a href="#" class="logo">
+DOANTEK <span>TESİSAT</span>
+</a>
 
 <nav class="menu">
 <a href="#hizmetler">Hizmetler</a>
 <a href="#neden">Neden Biz?</a>
+<a href="#calismalar">Çalışmalarımız</a>
 <a href="#iletisim">İletişim</a>
 </nav>
 
-<a href="tel:+905457127930" class="nav-btn">📞 0545 712 79 30</a>
+<a class="nav-phone" href="tel:+905457127930">
+📞 Ara
+</a>
 
 </div>
+
 </header>
 
+
+<!-- HERO -->
+
 <section class="hero">
+
 <div class="container hero-content">
 
-<div class="badge">İSTANBUL • ESENLER</div>
+<div class="hero-label">
+PROFESYONEL TESİSAT HİZMETİ
+</div>
 
 <h1>
-Su Kaçağı ve Tesisat Sorunlarında
-<span>Profesyonel Çözüm</span>
+İstanbul Tesisatçı &
+<span>Su Kaçağı Tespiti</span>
 </h1>
 
 <p>
-DOANTEK TESİSAT olarak su kaçağı tespiti, tesisat onarımı,
-gider açma, kombi ve kalorifer sistemlerinde hızlı ve güvenilir
-hizmet sunuyoruz.
+Su kaçağı tespiti, tesisat onarımı, gider açma,
+kombi ve kalorifer tesisatı için hızlı ve güvenilir çözümler.
 </p>
 
 <div class="buttons">
-<a href="tel:+905457127930" class="btn btn-orange">📞 Hemen Ara</a>
 
-<a href="https://wa.me/905457127930?text=Merhaba%20DOANTEK%20TESİSAT%20hizmetleriniz%20hakkında%20bilgi%20almak%20istiyorum." class="btn btn-green">
-💬 WhatsApp'tan Yaz
+<a class="btn orange" href="tel:+905457127930">
+📞 Hemen Ara
 </a>
+
+<a class="btn green"
+href="https://wa.me/905457127930?text=Merhaba%20DOANTEK%20TESİSAT%2C%20tesisat%20hizmeti%20hakkında%20bilgi%20almak%20istiyorum.">
+💬 WhatsApp
+</a>
+
 </div>
 
 </div>
+
 </section>
 
+
+<!-- TRUST -->
+
 <div class="container trust">
+
 <div class="trust-grid">
 
 <div class="trust-item">
-<strong>💧 Su Kaçağı Tespiti</strong>
-Hızlı ve profesyonel tespit
+<div class="trust-icon">💧</div>
+<strong>Su Kaçağı Tespiti</strong>
+Doğru noktaya müdahale
 </div>
 
 <div class="trust-item">
-<strong>🔧 Profesyonel Tesisat</strong>
+<div class="trust-icon">🔧</div>
+<strong>Profesyonel Tesisat</strong>
 Ev ve işyerlerine çözüm
 </div>
 
 <div class="trust-item">
-<strong>📍 İstanbul & Esenler</strong>
-Yerinde servis hizmeti
+<div class="trust-icon">⚡</div>
+<strong>Hızlı Servis</strong>
+İhtiyacınıza hızlı dönüş
 </div>
 
 </div>
+
 </div>
+
+
+<!-- SERVICES -->
 
 <section id="hizmetler">
+
 <div class="container">
 
-<div class="section-title">
+<div class="title">
+
 <small>HİZMETLERİMİZ</small>
-<h2>İhtiyacınız Olan Tesisat Çözümü</h2>
+
+<h2>Tesisat Sorunlarınıza Profesyonel Çözümler</h2>
+
 <p>
-Tesisat problemleriniz için doğru tespit ve profesyonel uygulama.
+İhtiyacınız olan tesisat hizmetini doğru şekilde planlayıp uyguluyoruz.
 </p>
+
 </div>
+
 
 <div class="services">
 
+
 <div class="service">
-<div class="icon">💧</div>
+
+<div class="service-img"
+style="background-image:url('https://images.unsplash.com/photo-1723514582643-233c529aa274?auto=format&fit=crop&w=900&q=80');">
+</div>
+
+<div class="service-body">
+
+<div class="service-icon">💧</div>
+
 <h3>Su Kaçağı Tespiti</h3>
+
 <p>
-Kırmadan önce doğru noktayı belirlemeye yönelik profesyonel
-su kaçağı tespiti hizmeti.
+Su kaçağının kaynağını belirlemeye yönelik profesyonel tespit hizmeti.
 </p>
+
 </div>
 
+</div>
+
+
 <div class="service">
-<div class="icon">🔧</div>
+
+<div class="service-img"
+style="background-image:url('https://images.unsplash.com/photo-1565797019502-383a19eac4b5?auto=format&fit=crop&w=900&q=80');">
+</div>
+
+<div class="service-body">
+
+<div class="service-icon">🔧</div>
+
 <h3>Tesisat Onarımı</h3>
+
 <p>
-Su ve temiz su tesisatlarındaki arızaların onarımı ve yenilenmesi.
+Su ve temiz su tesisatlarında onarım ve yenileme işlemleri.
 </p>
+
 </div>
 
+</div>
+
+
 <div class="service">
-<div class="icon">🚿</div>
+
+<div class="service-img"
+style="background-image:url('https://images.unsplash.com/photo-1565797019502-383a19eac4b5?auto=format&fit=crop&w=900&q=80');">
+</div>
+
+<div class="service-body">
+
+<div class="service-icon">🚿</div>
+
 <h3>Gider Açma</h3>
+
 <p>
-Mutfak, banyo ve lavabo giderlerinde tıkanıklıkların giderilmesi.
+Lavabo, banyo ve mutfak giderlerinde tıkanıklık çözümleri.
 </p>
+
 </div>
 
+</div>
+
+
 <div class="service">
-<div class="icon">🔥</div>
+
+<div class="service-img"
+style="background-image:url('https://images.unsplash.com/photo-1565797019502-383a19eac4b5?auto=format&fit=crop&w=900&q=80');">
+</div>
+
+<div class="service-body">
+
+<div class="service-icon">🔥</div>
+
 <h3>Kombi & Kalorifer</h3>
+
 <p>
-Kombi bağlantıları, kalorifer tesisatı ve ilgili tesisat işlemleri.
+Kombi bağlantıları ve kalorifer tesisatı uygulamaları.
 </p>
+
 </div>
 
+</div>
+
+
 <div class="service">
-<div class="icon">🏠</div>
+
+<div class="service-img"
+style="background-image:url('https://images.unsplash.com/photo-1723514582643-233c529aa274?auto=format&fit=crop&w=900&q=80');">
+</div>
+
+<div class="service-body">
+
+<div class="service-icon">🏠</div>
+
 <h3>Ev Tesisatı</h3>
+
 <p>
-Evlerde meydana gelen tesisat arızaları ve yenileme işlemleri.
+Evlerde meydana gelen tesisat problemlerine çözüm.
 </p>
+
 </div>
+
+</div>
+
 
 <div class="service">
-<div class="icon">🏢</div>
+
+<div class="service-img"
+style="background-image:url('https://images.unsplash.com/photo-1565797019502-383a19eac4b5?auto=format&fit=crop&w=900&q=80');">
+</div>
+
+<div class="service-body">
+
+<div class="service-icon">🏢</div>
+
 <h3>İşyeri Tesisatı</h3>
+
 <p>
-İşletmeler için tesisat, bakım, onarım ve yenileme çözümleri.
+İşletmeler için bakım, onarım ve tesisat çözümleri.
 </p>
+
 </div>
 
 </div>
+
+
 </div>
+
+</div>
+
 </section>
 
-<section class="about" id="neden">
-<div class="container about-grid">
+
+<!-- FEATURE -->
+
+<section class="feature" id="neden">
+
+<div class="container feature-grid">
+
+<div class="feature-img"></div>
 
 <div>
-<small style="color:#ff9a28;font-weight:bold;">NEDEN DOANTEK?</small>
+
+<small>NEDEN DOANTEK TESİSAT?</small>
 
 <h2>Tesisat İşinizi Şansa Bırakmayın.</h2>
 
 <p>
-Sorunun kaynağını doğru belirleyerek gereksiz müdahalelerin
-önüne geçmeyi ve kalıcı çözümler sunmayı hedefliyoruz.
+Problemin kaynağını doğru belirlemek ve ihtiyaca uygun
+çözüm üretmek için profesyonel hizmet anlayışıyla çalışıyoruz.
 </p>
 
-<div class="checks">
-<div class="check"><span>✓</span> Profesyonel hizmet anlayışı</div>
-<div class="check"><span>✓</span> Hızlı servis</div>
-<div class="check"><span>✓</span> Şeffaf iletişim</div>
-<div class="check"><span>✓</span> İstanbul genelinde hizmet</div>
-</div>
+<div class="check-list">
+
+<div class="check">
+<span>✓</span> Profesyonel hizmet
 </div>
 
-<div style="background:rgba(255,255,255,.08);padding:40px;border-radius:18px;">
-<h3 style="font-size:28px;margin-bottom:15px;">Bir tesisat probleminiz mi var?</h3>
-<p>
-Sorunun büyümesini beklemeyin. Bizi arayın veya WhatsApp üzerinden
-fotoğraf/video göndererek bilgi alın.
-</p>
+<div class="check">
+<span>✓</span> Şeffaf iletişim
+</div>
 
-<a href="https://wa.me/905457127930" class="btn btn-green">
-💬 WhatsApp'tan İletişime Geç
-</a>
+<div class="check">
+<span>✓</span> Hızlı geri dönüş
+</div>
+
+<div class="check">
+<span>✓</span> Ev ve işyerlerine hizmet
 </div>
 
 </div>
+
+</div>
+
+</div>
+
 </section>
 
+
+<!-- WORKS -->
+
+<section id="calismalar">
+
+<div class="container">
+
+<div class="title">
+
+<small>ÇALIŞMALARIMIZ</small>
+
+<h2>Tesisat Hizmetlerinden Görüntüler</h2>
+
+<p>
+Gerçek iş fotoğraflarımızı da zamanla bu bölüme ekleyebiliriz.
+</p>
+
+</div>
+
+
+<div class="works">
+
+<div class="work">
+
+<img src="https://images.unsplash.com/photo-1723514582643-233c529aa274?auto=format&fit=crop&w=1000&q=80">
+
+<div class="work-text">
+🚿 Tesisat & Banyo Sistemleri
+</div>
+
+</div>
+
+
+<div class="work">
+
+<img src="https://images.unsplash.com/photo-1565797019502-383a19eac4b5?auto=format&fit=crop&w=1000&q=80">
+
+<div class="work-text">
+🔧 Tesisat Çalışmaları
+</div>
+
+</div>
+
+
+<div class="work">
+
+<img src="https://images.unsplash.com/photo-1565797019502-383a19eac4b5?auto=format&fit=crop&w=1000&q=80">
+
+<div class="work-text">
+💧 Su Tesisatı
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- CTA -->
+
 <section class="cta">
+
 <div class="container">
 
 <h2>Tesisat Sorununuz mu Var?</h2>
 
 <p>
-DOANTEK TESİSAT'a ulaşın, ihtiyacınıza uygun çözümü birlikte değerlendirelim.
+Fotoğraf veya video gönderin, probleminizi birlikte değerlendirelim.
 </p>
 
-<a href="tel:+905457127930" class="btn">
-📞 0545 712 79 30 — Hemen Ara
+<a class="btn" href="https://wa.me/905457127930">
+💬 WhatsApp'tan Yazın
 </a>
 
 </div>
+
 </section>
 
-<section id="iletisim">
+
+<!-- CONTACT -->
+
+<section class="contact" id="iletisim">
+
 <div class="container">
 
-<div class="section-title">
+<div class="title">
+
 <small>İLETİŞİM</small>
-<h2>Bize Ulaşın</h2>
-<p>Su kaçağı ve tüm tesisat işleriniz için iletişime geçebilirsiniz.</p>
+
+<h2>DOANTEK TESİSAT</h2>
+
+<p>
+Tesisat işleriniz için bize ulaşabilirsiniz.
+</p>
+
 </div>
+
 
 <div class="contact-grid">
 
+
 <div class="contact-card">
 
-<h3>DOANTEK TESİSAT</h3>
+<h3>İletişim Bilgileri</h3>
 
 <div class="contact-line">
+
 <strong>📞 Telefon</strong>
-<a href="tel:+905457127930">0545 712 79 30</a>
+
+<a href="tel:+905457127930">
+0545 712 79 30
+</a>
+
 </div>
 
+
 <div class="contact-line">
+
 <strong>💬 WhatsApp</strong>
-<a href="https://wa.me/905457127930">WhatsApp üzerinden iletişim</a>
+
+<a href="https://wa.me/905457127930">
+WhatsApp üzerinden mesaj gönder
+</a>
+
 </div>
 
+
 <div class="contact-line">
+
 <strong>📍 Adres</strong>
+
 Menderes Mah. 375. Sok. No:8<br>
 Esenler / İstanbul
+
 </div>
 
 </div>
+
 
 <div class="contact-card">
 
 <h3>Hızlı İletişim</h3>
 
 <p style="color:#687587;margin-bottom:20px;">
-WhatsApp üzerinden bize ulaşarak tesisat probleminizi
-anlatabilir ve fotoğraf gönderebilirsiniz.
+
+Tesisat probleminizi WhatsApp üzerinden
+fotoğraf veya video göndererek anlatabilirsiniz.
+
 </p>
 
-<a href="https://wa.me/905457127930?text=Merhaba%20DOANTEK%20TESİSAT%2C%20tesisat%20hizmeti%20hakkında%20bilgi%20almak%20istiyorum." class="btn btn-green">
-💬 WhatsApp'tan Yaz
+
+<div class="buttons">
+
+<a class="btn green"
+href="https://wa.me/905457127930">
+💬 WhatsApp
 </a>
 
-<a href="tel:+905457127930" class="btn btn-orange" style="margin-left:8px;">
-📞 Ara
+<a class="btn orange"
+href="tel:+905457127930">
+📞 Hemen Ara
 </a>
 
 </div>
 
 </div>
+
+
 </div>
+
+</div>
+
 </section>
 
+
+<!-- FOOTER -->
+
 <footer>
+
 <div class="container">
-<strong>DOANTEK TESİSAT</strong><br>
-Su Kaçağı Tespiti • Tesisat • Gider • Kombi • Kalorifer
+
+<strong>DOANTEK TESİSAT</strong>
+
+<br>
+
+İstanbul Tesisatçı • Su Kaçağı Tespiti • Tesisat Onarımı
+
 <br><br>
-© 2026 DOANTEK TESİSAT — Tüm hakları saklıdır.
+
+© 2026 DOANTEK TESİSAT
+
 </div>
+
 </footer>
 
-<div class="bottom-buttons">
-<a href="tel:+905457127930" class="phone">📞 ARA</a>
-<a href="https://wa.me/905457127930" class="whatsapp">💬 WHATSAPP</a>
+
+<!-- MOBILE -->
+
+<div class="mobile-buttons">
+
+<a href="tel:+905457127930" style="background:#ff8a00;">
+📞 ARA
+</a>
+
+<a href="https://wa.me/905457127930" style="background:#19bd66;">
+💬 WHATSAPP
+</a>
+
 </div>
+
 
 </body>
 </html>
